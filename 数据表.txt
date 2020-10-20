@@ -1,0 +1,14 @@
+1.用户表（user）
+(username,password,mailbox,sex,birth,place,created_class,joined_class,uid)
+
+2.文件表（file）
+(filename,uploader,upload_time,filesize,location,fid)
+
+3.公告表（notice）
+(uploader,upload_time,location,nid)
+
+4.作业表（homework）
+(homework_name,uploader,upload_time,location,store_location,start_time,deadline,finish_person,hid)
+
+5.课程表（class）
+(creator,admin,member,class_name,creation_time,fid_list,nid_list,hid_list,join_code,cid)
